@@ -1,9 +1,9 @@
-name: Hello CI/CD
+# name: Hello CI/CD
 
-on: [push]
+# on: [push]
 
-jobs:
-  Hello:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "hello github actions"
+# jobs:
+#   Hello:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - run: echo "hello github actions"
