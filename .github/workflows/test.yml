@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: calculator-api/src
+        working-directory: calculator-api
         
     steps:
       - uses: actions/checkout@v4
