@@ -1,0 +1,17 @@
+name: deploy workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "app version"
+        required: true
+        default: "1.0.0"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    steps:
+      - run: echo "Deploying Calculator API version ${{ github.event.inputs.version }}"
