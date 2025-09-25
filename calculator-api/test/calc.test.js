@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../index"); // لكن عشان app بيعمل listen، هنعدل كده
+const app = require("../src/index"); // لكن عشان app بيعمل listen، هنعدل كده
 
 // نعدل index.js عشان نصدر app بدل ما يشغل السيرفر على طول
 // هنضيف في index.js:
